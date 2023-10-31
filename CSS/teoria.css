@@ -1,0 +1,52 @@
+* {
+  /*seletor geral*/
+  margin: 0;
+  padding: 0;
+}
+:root {
+  /*Seletor de configuração */
+  --cor-principal: #ddf542;
+  --cor-menu_navegacao: #f542ef;
+  --cor-links-clicado: #f5425a;
+}
+#principal {
+  /*Seletor de id especifico*/
+  background-color: var(--cor-principal);
+}
+.menu_navegacao {
+  /*seletor de classe*/
+  background-color: var(--cor-menu_navegacao);
+}
+a:hover {
+  /*seletor de estado*/
+  color: var(--cor-links-clicado);
+}
+img[alt] {
+  /*seletor de atributo*/
+  width: 30%;
+}
+
+p {
+  font-size: 30px;
+}
+
+/*DISPLAYS*/
+.container {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  /*Divisao do grid em colunas
+  a segunda und de medida ocupa todo o resto do espaço disponível.*/
+  height: 80vh;
+}
+footer {
+  background-color: blue;
+  color: white;
+  height: 18vh;
+}
+
+#principal img {
+  display: block; /*divisao em blocos*/
+}
+nav li {
+  display: inline;
+}
