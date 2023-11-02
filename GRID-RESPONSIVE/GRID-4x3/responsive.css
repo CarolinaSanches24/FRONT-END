@@ -1,0 +1,47 @@
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 20% 40% 30% 10%;
+    grid-template-areas:
+      "header"
+      "aside"
+      "main"
+      "section"
+      "content"
+      "footer";
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 100px 170px 100px 100px 70px;
+    grid-template-areas:
+      "header aside"
+      "main main"
+      "section section"
+      "content content"
+      "footer footer";
+  }
+  aside {
+    background-color: #27c6c9;
+  }
+
+  #botao_menu {
+    padding: 12px 0 12px 2rem;
+    display: block;
+  }
+
+  h2 {
+    display: none;
+  }
+  .subitens {
+    display: none;
+  }
+
+  .subitens ul {
+    list-style: none;
+  }
+  .subitens ul li {
+    margin-left: 5px;
+  }
+}

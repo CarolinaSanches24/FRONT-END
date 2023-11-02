@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  /*As media queries são especialmente úteis para criar designs responsivos, 
+    onde o layout e o estilo de uma página se ajustam automaticamente
+     para oferecer uma experiência de usuário otimizada em diferentes
+      dispositivos, como computadores, tablets e smartphones*/
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 35% 35% 10%;
+    grid-template-areas:
+      "header"
+      "aside"
+      "main"
+      "footer";
+  }
+}

@@ -1,0 +1,25 @@
+.container {
+  display: grid;
+  gap: 5px; /*Espaço entre grades*/
+  grid-template-columns: 1fr 2fr; /* Duas colunas, a primeira com 1 fração de espaço e a segunda com 2 frações */
+  grid-template-rows: auto 1fr auto; /* Três linhas, a primeira e a terceira com altura automática e a segunda com 1 fração de espaço */
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  height: 100vh;
+}
+header {
+  background-color: yellow;
+  grid-area: header;
+}
+aside {
+  background-color: green;
+}
+main {
+  background-color: blue;
+}
+footer {
+  background-color: chocolate;
+  grid-area: footer;
+}
