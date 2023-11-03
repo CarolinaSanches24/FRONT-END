@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+  /*flexibilidade de posicionamento*/
+}
+.flex-container-direct {
+  display: flex;
+  flex-direction: row; /*Da esquerda para direita*/
+}
+.flex-container-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-container-column {
+  display: flex;
+  flex-direction: column; /*de cima para baixo*/
+}
+.flex-container-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.justify-content {
+  display: flex;
+  justify-content: flex-start; /* os itens ficam junto no começo da linha*/
+}

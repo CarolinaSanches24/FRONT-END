@@ -5,12 +5,12 @@
 .container {
   display: grid;
   grid-template-columns: 20% 50% 50%;
-  grid-template-rows: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 0.7fr;
   grid-template-areas:
-    "header header header"
+    "aside header header"
     "aside main main"
     "aside section content"
-    "footer footer footer";
+    "aside footer footer";
 }
 header {
   grid-area: header;
