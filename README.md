@@ -10,4 +10,10 @@ Conceitos de Front-End
 # CSS
 
 - Tipos de Seletores
-- Displays (Inline, grid, block);
+- Displays (Inline, grid, block, flex);
+
+# JS
+
+- QuerySelector
+- QuerySelectorAll
+- NodeList
