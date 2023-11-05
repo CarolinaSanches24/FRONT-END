@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.static-box {
+  position: static;
+  background-color: #f1c40f;
+  padding: 20px;
+  text-align: center;
+}
+
+.relative-box {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: #3498db;
+  padding: 20px;
+  text-align: center;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  background-color: #e74c3c;
+  padding: 20px;
+  text-align: center;
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2ecc71;
+  padding: 20px;
+  text-align: center;
+}

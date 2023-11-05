@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .lista-menu {
+        display: none; /* Por padrão, a lista está oculta */
+      }
+      /* Esse código CSS faz uso do seletor de irmão geral (~)
+       para selecionar um elemento com a classe .lista-menu */
+      .container_botao:checked ~ .lista-menu {
+        display: block; /* Quando o botão está marcado, a lista é exibida */
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" class="container_botao" />
+    <!-- Um botão de seleção -->
+    <ul class="lista-menu">
+      <!-- Uma lista que será exibida quando o botão estiver marcado -->
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </body>
+</html>
