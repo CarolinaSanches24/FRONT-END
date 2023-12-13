@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de doações</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Life+Savers"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+        <div class="container_imagem">
+          <div class="imagem_urso">
+            <img src="./img/Imagem.png" alt="Imagem Brinquedos" />
+          </div>
+        </div>
+    <div class="box">
+        <h1>DOAÇÕES</h1>
+        <form action="" method="post">
+        
+        <br>
+        <div class="inputBox">
+            <input type="text" name="name" id="name" class="inputUser"  autocomplete="off" required/>
+            <label for="name" class="labelInput">Nome Completo:</label>
+            
+        </div>
+        <br><br>
+        <div class ="inputBox">
+            <input type="email" name="email" id="email" class="inputUser" autocomplete="off" required/>
+            <label for="email" class="labelInput">Email:</label>
+        </div>
+        <br><br>
+        <div class ="inputBox">
+            <input type="tel" name="fone" id="fone" class="inputUser" required/>
+            <label for="fone" class="labelInput">Telefone:</label>
+        </div>
+        <br>
+        <br><br>
+        <div class ="inputBox">
+            <input type="password" name="senha" id="senha" class="inputUser" required/>
+            <label for="senha" class="labelInput">Senha:</label>
+        </div>
+        <br>
+        <div class ="inputBox radio">
+            <p class="lbl_padrao estado">Estado do Brinquedo:</p> <br><br>
+            <input type="radio" id="novo" name="estado" value="Novo" required/>
+            <label for="novo" class="lbl_padrao lbl_radio">Novo</label>
+            <input type="radio" id="usado" name="estado" value="Usado" required/>
+            <label for="usado" class="lbl_padrao lbl_radio">Usado</label>
+        </div>
+        <br><br>
+        <div class ="inputBox campos">
+            <label for="tipoBrinquedo" class="lbl_padrao">Tipo de Brinquedo:</label>
+                <select id="tipoBrinquedo" name="tipoBrinquedo" class="selecao">
+                    <option>Selecionar</option>
+                    <option value="Menino">Menino</option>
+                    <option value="Menina">Menina</option>
+                </select>
+            <label for="cidade" class="lbl_padrao">Quantidade:</label>
+            <input type="number" name="quantidade" id="quantidade" class="inputUser quant" required/>
+           
+        </div>
+        <br><br>
+        <div class ="inputBox">
+            <div class="btn_cep">
+                <input type="text" name="cep" id="cep" class="inputUser" required/>
+                <button type="button" id="calcularCEP">Calcular</button>
+            </div>
+                <label for="cep" class="labelInput">CEP:</label>
+                <br>
+                <label for="taxaEntrega" class="lbl_padrao">Taxa de entrega:</label>
+                <br><br>
+            <div class="input_entrega">
+                <p class="lbl_padrao">R$</p>
+                <input type="text" id="taxaEntrega" name="taxaEntrega"  class="inputUser input_taxa"/>
+                <img src="./img/delivery.png" alt="Carrinho delivery" width="30px" class="icon_delivery"/>
+                <a href="#" class="link_doacao">Doação de valor em Especie</a>
+            </div>
+                
+                
+        </div>
+        <br><br>
+            <div class="btn_doar">
+                 <input type="submit"  onchange="exibir()" name="submit" id="send" value="DOAR"/>
+            </div>
+        </div>
+    </form>
+    </section>
+    <script src="./script.js"></script>
+  </body>
+</html>

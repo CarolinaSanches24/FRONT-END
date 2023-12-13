@@ -23,9 +23,8 @@ botoes.forEach((botao) => {
   });
 });
 
-/*var expressao = "2 + 3 * 5";
-var resultado = eval(expressao);
-console.log(resultado); // Saída: 17 */
+/*A expressão eval em JavaScript é uma função embutida
+ que avalia uma string como código JavaScript e executa esse código*/
 
 /*Uma NodeList é basicamente uma lista (ou coleção)
  de elementos que você pode encontrar em uma página da web.*/

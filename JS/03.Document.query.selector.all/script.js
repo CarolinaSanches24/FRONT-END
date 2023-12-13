@@ -1,5 +1,5 @@
 // Seleciona todos os parágrafos dentro das divs com a classe "minha-div"
-var paragrafos = document.querySelectorAll(".minha-div p");
+const paragrafos = document.querySelectorAll(".minha-div p");
 
 // Altera o texto de todos os parágrafos selecionados
 paragrafos.forEach(function (paragrafo) {
