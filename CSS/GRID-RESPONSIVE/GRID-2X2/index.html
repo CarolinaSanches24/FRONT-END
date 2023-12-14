@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      /* Define a container with a grid layout */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+        grid-template-rows: repeat(2, 1fr); /* 2 rows */
+        /* gap: 10px;  espaço entre as linhas e colunas */
+        max-width: 300px;
+      }
+
+      .grid-item {
+        border: 1px solid #ccc;
+        object-fit: cover;
+      }
+      .balao {
+        margin-top: 100px;
+        padding: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-container">
+      <!-- Grid item 1 -->
+      <div class="grid-item">
+        <button class="btn_doar">DOAR</button>
+      </div>
+      <!-- Grid item 2 -->
+      <div class="grid-item">
+        <img src="./assets/img/pipa.png" />
+      </div>
+      <!-- Grid item 3 -->
+      <div class="grid-item balao">
+        <img src="./assets/img/balao.png" />
+      </div>
+      <!-- Grid item 4 -->
+      <div class="grid-item">
+        <img src="./assets/img/menino.png" />
+      </div>
+    </div>
+  </body>
+</html>

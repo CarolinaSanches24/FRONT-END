@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .flex-container {
+        margin: 0;
+      }
+
+      .flex-item {
+        border: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+      }
+      button {
+        background-color: #0096b8;
+        border: none;
+        border-radius: 20px;
+        padding: 0.5em;
+        margin: 1em;
+        color: #f2ca50;
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: Chicle;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      .img_balao img {
+        position: relative;
+        top: 10em;
+        right: -5em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexbox-container">
+      <div class="flex-item">
+        <button class="btn_doar">DOAR</button>
+        <img src="./assets/img/pipa.png" />
+      </div>
+
+      <div class="flex-item">
+        <div class="img_balao">
+          <img src="./assets/img/balao.png" />
+        </div>
+        <img src="./assets/img/menino.png" />
+      </div>
+    </div>
+  </body>
+</html>
