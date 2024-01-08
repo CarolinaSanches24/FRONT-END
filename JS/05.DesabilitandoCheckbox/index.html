@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Estilo para desativar quando a caixa de seleção estiver marcada */
+      #habilitarElemento:disabled {
+        color: gray;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" class="habilitarCheckbox" />
+    <input type="checkbox" class="habilitarCheckbox" />
+    <input type="checkbox" class="habilitarCheckbox" />
+
+    <script>
+      const checkboxs = document.querySelectorAll(".habilitarCheckbox");
+      checkboxs.forEach(function (checkbox) {
+        checkbox.addEventListener("change", function () {
+          if (this.checked) {
+            checkboxs.forEach(function (otherCheckbox) {
+              if (otherCheckbox !== checkbox) {
+                otherCheckbox.checked = false;
+              }
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

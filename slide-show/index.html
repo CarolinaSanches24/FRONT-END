@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="Loop Nerd" content="Slideshow de imagens" />
+    <meta
+      name="description"
+      content="Como fazer uma galeria de imagens em JavaScript?"
+    />
+
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="robots" content="index, follow" />
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!--CSS DA GALERIA-->
+    <link rel="stylesheet" href="swiper/css/swiper.css" />
+    <link rel="stylesheet" href="swiper/css/style.css" />
+
+    <title>Slideshow de imagens</title>
+  </head>
+
+  <body>
+    <header class="main_header container"></header>
+
+    <main class="main_content container">
+      <!--Inicio Galeria-->
+      <div class="swiper-width">
+        <div class="swiper-area">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="uploads/foto-1.jpg" alt="foto-1" /><span
+                  >Girassol</span
+                >
+              </div>
+              <div class="swiper-slide">
+                <img src="uploads/foto-2.jpg" alt="foto-2" /><span
+                  >Rosas Branca</span
+                >
+              </div>
+              <div class="swiper-slide">
+                <img src="uploads/foto-3.jpg" alt="foto-3" /><span
+                  >Rosas Vermelhas</span
+                >
+              </div>
+              <div class="swiper-slide">
+                <img src="uploads/foto-4.jpg" alt="foto-4" /><span
+                  >Margaridas</span
+                >
+              </div>
+              <div class="swiper-slide">
+                <img src="uploads/foto-5.jpg" alt="foto-5" /><span>Rosas</span>
+              </div>
+            </div>
+
+            <!-- Add Pagination -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+          <!--swiper-container-->
+        </div>
+        <!--swiper-area-->
+      </div>
+      <!--Finaliza Galeria-->
+    </main>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
+
+    <!--SCRIPTS DA GALERIA-->
+    <script src="swiper/js/jquery.min.js"></script>
+    <script src="swiper/js/swiper.js"></script>
+    <script src="swiper/js/swiper.jquery.js"></script>
+    <script src="swiper/js/script.js"></script>
+  </body>
+</html>

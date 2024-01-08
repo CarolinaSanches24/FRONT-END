@@ -1,0 +1,58 @@
+.swiper-width {
+
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px 0;
+
+}
+
+.swiper-width .swiper-area {
+  max-width: 1393px;
+  margin: auto;
+}
+
+.swiper-width .swiper-area .swiper-container {
+  margin-left: -50%;
+  width: 200%;
+  position: relative;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-button-next {
+  right: 32%;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-button-prev {
+  left: 32%;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-slide {
+  position: relative;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-slide span {
+  
+  width: 100%;
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  background: transparent;
+  font-size: 16px;
+  padding: 20px 0px;
+  margin-top: 0px;
+
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-slide img {
+  width: 100%;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-slide img a {
+  display: block;
+}
+
+.swiper-width .swiper-area .swiper-container .swiper-slide img a img {
+  width: 100%;
+}
