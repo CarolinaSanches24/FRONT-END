@@ -1,0 +1,9 @@
+@import url(./variaveis.css);
+@import url(./topo.css);
+@import url(./reset.css);
+@import url(./swiper.css);
+@import url(./footer.css);
+
+body {
+  background-color: var(--cor-cinza);
+}
