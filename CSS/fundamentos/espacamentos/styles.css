@@ -1,0 +1,35 @@
+.caixa-1 {
+  width: 170px;
+  height: 170px;
+  background-color: blueviolet;
+  margin: 5px 10px 15px 20px;
+  /*primeiro valor 5px = cima
+segundo valor 10px = direita
+terceiro valor 15px = embaixo
+quarto valor 20px = esquerda*/
+}
+.caixa-2 {
+  width: 170px;
+  height: 170px;
+  background-color: green;
+  margin: 30px 40px;
+  /*valores de cima e de baixo sao 30px
+  valores da esquerda e direita sao 40px*/
+}
+.btn-1 {
+  padding: 10px;
+}
+.btn-2 {
+  padding: 5px 20px;
+}
+.texto {
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  background-color: chocolate;
+  box-sizing: border-box;
+}
+
+/*a propriedade box-sizing :border-box
+ faz com que o espaço do padding nao seja 
+ somado no tamanho do elemento*/

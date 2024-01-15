@@ -1,0 +1,28 @@
+.texto {
+  background-color: blueviolet;
+  font-size: 50px;
+  /*Por padrão o elemento p tem o display block ocupa uma linha inteira*/
+}
+.inline {
+  background-color: green;
+  font-size: 50px;
+  display: inline;
+  /*O elemento sera exibido em linha ao lado de outro elementos*/
+}
+
+.link {
+  /*O Elemento a por padrão tem o display inline*/
+  /*Ocupando apenas a largura de seu contéudo*/
+  margin-top: 20px;
+  font-size: 50px;
+  display: block;
+  background-color: red;
+}
+
+.display-inline-block {
+  background-color: rgb(255, 0, 225);
+  font-size: 50px;
+  padding: 15px;
+  display: inline-block;
+}
+/* elementos inline não aceitam width e height*/

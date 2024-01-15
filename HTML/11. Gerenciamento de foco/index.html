@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciamento de foco</title>
+  </head>
+  <body>
+    <h2>Gerenciamento de Foco</h2>
+    <label for="input">Segundo elemento focado:</label>
+    <input type="text" id="input" />
+
+    <div tabindex="0">Terceiro elemento focado</div>
+    <div>Essa div não é focada</div>
+
+    <div tabindex="1">Primeiro elemento focado</div>
+    <!-- o atributo tabindex informa ao navegador qual
+         a ordem de foco dos elementos da pagina quando
+          acionado pela tecla TAB-->
+  </body>
+</html>

@@ -1,0 +1,75 @@
+p {
+  color: blueviolet;
+  text-transform: uppercase;
+}
+/* Seletor de dependência */
+main h3 {
+  color: red;
+}
+/*Seletor de Filho(Child)*/
+/*Aplica somente em filhos diretos do main*/
+main > h3 {
+  color: blue;
+}
+
+.botao_adicionar:hover {
+  background-color: lightblue;
+}
+.botao_adicionar:focus {
+  background-color: blue;
+}
+.botao_adicionar:active {
+  height: 20vh;
+}
+
+li:first-child {
+  color: blue;
+}
+li:last-child {
+  border: solid 2px orangered;
+  width: 100px;
+  border-radius: 5%;
+  list-style: none;
+  padding: 1em;
+  text-align: center;
+}
+/* Aplica no elemento conforme a posicao passada */
+li:nth-child(2) {
+  color: green;
+}
+/* Aplica  em elementos na posicao impar */
+li:nth-child(odd) {
+  font-size: 32px;
+}
+/* Aplica  em elementos na posicao par */
+li:nth-child(even) {
+  color: purple;
+}
+
+/*PSEUDOELEMENTOS*/
+/*Cria um elemento depois do ultimo filho do elemento selecionado*/
+.exemplo::after {
+  content: "- DEPOIS";
+}
+/*Cria um elemento como primeiro filho do elemento selecionado*/
+.exemplo::before {
+  content: "ANTES -";
+}
+
+/*Unidade de medida fixa (px)*/
+.botao_clique_aqui {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 150px;
+}
+
+/*Unidade de medida flexivel (%)*/
+.elemento-pai {
+  width: 300px;
+  height: 300px;
+  background-color: greenyellow;
+}
+/* nesse caso o elemento filho vai ocupar a metade do elemento pai ou seja 150 */
+.elemento-filho {
+  height: 50%;
+}

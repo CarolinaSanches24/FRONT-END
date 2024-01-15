@@ -1,0 +1,217 @@
+.caixa {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  border: 2px solid green;
+}
+.flexbox {
+  background-color: pink;
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+}
+.containerInlineFlex {
+  display: inline-flex;
+  border: 2px solid green;
+}
+.container-flex-direction-row {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid green;
+}
+.container-flex-direction-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 2px solid green;
+}
+.container-flex-direction-column {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid green;
+}
+.container-flex-direction-column-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+  border: 2px solid green;
+}
+.container-flex-wrap {
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex {
+  background: pink;
+  width: 50px;
+  height: 50px;
+  border: 1px solid blue;
+}
+.container-flex-flow {
+  border: 2px solid green;
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+.container-justify-content-flex-start {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid green;
+}
+.container-justify-content-flex-end {
+  display: flex;
+  justify-content: flex-end; /*alinha ao final*/
+  border: 2px solid green;
+}
+.container-justify-content-center {
+  display: flex;
+  justify-content: center; /*alinha ao centro*/
+  border: 2px solid green;
+}
+.container-justify-content-space-between {
+  display: flex;
+  justify-content: space-between; /*espaço entre os itens*/
+  border: 2px solid green;
+}
+.container-justify-content-space-around {
+  display: flex;
+  justify-content: space-around; /*espaço entre os lados*/
+  border: 2px solid green;
+}
+.container-justify-content-space-evenly {
+  display: flex;
+  justify-content: space-evenly; /*espaço entre os lados proporcional*/
+  border: 2px solid green;
+}
+.container-stretch {
+  display: flex;
+  height: 300px;
+  border: 2px solid green;
+}
+.align {
+  background-color: blueviolet;
+  width: 40px;
+  border: 1px solid green;
+}
+.container-align-items-flex-start {
+  display: flex;
+  height: 300px;
+  border: 2px solid green;
+  align-items: flex-start;
+}
+.container-align-items-center {
+  display: flex;
+  height: 300px;
+  border: 2px solid green;
+  align-items: center;
+}
+.container-align-items-flex-end {
+  display: flex;
+  height: 300px;
+  border: 2px solid green;
+  align-items: flex-end;
+}
+.container-align-content {
+  border: 2px solid green;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-wrap: wrap;
+  align-content: center; /*So funciona se tiver quebra de linha*/
+}
+.container-order {
+  border: 2px solid green;
+  display: flex;
+}
+.quadrado {
+  background-color: blueviolet;
+  width: 40px;
+  border: 1px solid green;
+}
+
+.quadrado:nth-child(1) {
+  order: 2;
+}
+.quadrado:nth-child(2) {
+  order: 1;
+}
+.quadrado:nth-child(3) {
+  order: 1;
+}
+.quadrado:nth-child(4) {
+  order: 1;
+}
+.grow {
+  background-color: blueviolet;
+  width: 40px;
+  height: 100px;
+  border: 1px solid green;
+}
+.grow:nth-child(1) {
+  flex-grow: 1;
+}
+.grow:nth-child(2) {
+  flex-grow: 1;
+}
+.grow:nth-child(3) {
+  flex-grow: 1;
+}
+.grow:nth-child(4) {
+  flex-grow: 2;
+}
+.shrink {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.shrink:nth-child(1) {
+  flex-shrink: 0; /*nao altera a proporcao*/
+  /*flex-shrink:2 altera mais rapido que as outras*/
+}
+
+.basis {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid green;
+}
+.basis:nth-child(3) {
+  flex-basis: 200px;
+}
+.basis:nth-child(1) {
+  flex: 0 1 100px;
+  /*primeiro valor flex-grow=0
+  segundo valor flex-shrink=1
+  flex-basis=100px*/
+}
+.container {
+  border: 1px solid green;
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+.align-self {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border: 2px solid green;
+}
+.align-self:nth-child(3) {
+  align-self: flex-end;
+}
+
+.container-grid {
+  border: 2px solid green;
+  display: grid;
+  grid-template-columns: 150px 100px;
+  grid-gap: 10px;
+}
+.item {
+  background: pink;
+  padding: 20px;
+}
+.colunas {
+  column-count: 4;
+}

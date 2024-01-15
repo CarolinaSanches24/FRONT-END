@@ -1,0 +1,16 @@
+.card {
+  box-shadow: 5px 5px 10px 5px #000;
+  width: 400px;
+  height: 400px;
+
+  background-position: center;
+  background-size: 400px 400px; /*largura e altura*/
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-image: url("https://w.forfun.com/fetch/bf/bfe347768471fdae309a72d8b8d9b596.jpeg");
+}
+figcaption {
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}

@@ -1,0 +1,11 @@
+.texto {
+  color: green;
+}
+.elemento-pai {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+.elemento-filho {
+  width: inherit;
+}

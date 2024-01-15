@@ -1,0 +1,11 @@
+.color_purple {
+  background-color: purple;
+  width: 100px;
+  height: 100px;
+}
+.color_red {
+  background-color: rgb(0, 255, 0);
+}
+.color_blue {
+  background-color: #0000ff;
+}

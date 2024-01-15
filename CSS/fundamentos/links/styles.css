@@ -1,0 +1,14 @@
+.link {
+  text-decoration: none;
+  color: black;
+}
+.link:hover {
+  color: blue;
+}
+.link:active {
+  color: darkmagenta;
+}
+.link:focus {
+  outline: none;
+  border: 5px solid green;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .lista .item .link {
+        /*10+10+10=30*/
+        background-color: green;
+      }
+      ul #item a {
+        background-color: saddlebrown; /*1+100+1=102*/
+      }
+      ul li a {
+        background-color: red; /*1+1+1=3*/
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="lista">
+      <li class="item" id="item">
+        <a href="#" class="link">Item 1</a>
+      </li>
+    </ul>
+    <!-- o estilo inline tem maior precedencia -->
+  </body>
+</html>
